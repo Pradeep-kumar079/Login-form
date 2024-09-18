@@ -1,0 +1,276 @@
+ *{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+ }
+ .container{
+  height: 500px;
+  width: 750px;
+  border: 2px solid palevioletred;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 400px;
+  margin-top: 100px;
+  border-radius: 7px 51px 51px 7px;;
+ }
+ .signup{
+  height: 500px;
+  width: 375px;
+  margin-right: 0px;
+  border: 2px  palevioletred;
+  border-bottom: none;
+  border-left: none;
+  border-top: none;
+
+  
+  
+ }
+ .login{
+  height: 500px;
+  width: 375px;
+  border: 2px solid palevioletred;
+  border-bottom: none;
+  border-right: none;
+  border-top: none;
+  background-color: rgb(37, 37, 112);
+  border-radius: 115px 51px 51px 115px;
+  
+  
+ 
+ }
+ 
+ 
+ .create{
+  text-align: center;
+  margin-top: 20px;
+ }
+ .log{
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+ }
+ .username{
+  height: 40px;
+  width: 280px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-left: 40px;
+  margin-top: 30px;
+
+ }
+ .password{
+  height: 40px;
+  width: 280px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-left: 40px;
+  margin-top: 30px;
+
+ }
+ .check{
+  margin-left: 10px;
+  margin-top: 30px;
+ }
+ .forgot{
+  margin-left: 100px;
+ }
+ .submit{
+  margin-top: 50px;
+  margin-left: 155px;
+  height: 30px;
+  width: 70px;
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  color: white;
+ }
+ .or{
+  text-align: center;
+  margin-top: 35px;
+  color: rgb(77, 77, 231);
+ }
+ .locker{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+ }
+ .icon1{
+  height: 70px;
+  
+ }
+ .icon2{
+  height: 70px;
+  
+ }
+ .para{
+  text-align: center;
+  margin-top: 50px;
+  color: aliceblue;
+
+ }
+ .para1{
+  margin-left: 50px;
+  margin-top: 8px;
+  font-size: large;
+  color: aliceblue;
+ }
+ .lgnbtn{
+  margin-left: 150px;
+  margin-top: 50px;
+  height: 30px;
+  width: 90px;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  background-color: black;
+ 
+}
+/* upto here css of signup page and it,s right side column page
+
+
+
+
+
+/*this is for login page css*/
+
+.signup1{
+  height: 500px;
+  width: 375px;
+  margin-right: 0px;
+  border: 2px  palevioletred;
+  border-bottom: none;
+  border-left: none;
+  border-top: none;
+  display: none;
+  
+  
+  
+ }
+ .create1{
+  text-align: center;
+  margin-top: 20px;
+ }
+ .log1{
+  text-align: center;
+  margin-top: 20px;
+ }
+ .username1{
+  height: 40px;
+  width: 280px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-left: 40px;
+  margin-top: 30px;
+
+ }
+ .password1{
+  height: 40px;
+  width: 280px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-left: 40px;
+  margin-top: 30px;
+
+ }
+ .check1{
+  margin-left: 10px;
+  margin-top: 30px;
+ }
+ .forgot1{
+  margin-left: 100px;
+ }
+ .submit1{
+  margin-top: 50px;
+  margin-left: 155px;
+  height: 30px;
+  width: 70px;
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  color: white;
+ }
+ .or1{
+  text-align: center;
+  margin-top: 35px;
+  color: rgb(77, 77, 231);
+ }
+ .locker1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+ }
+ .icon11{
+  height: 70px;
+  
+ }
+ .icon22{
+  height: 70px;
+  
+ }
+
+
+
+ /*this is end of login page*/
+
+
+
+
+
+ /* this is for login page side column */
+
+ .login12{
+  height: 500px;
+  width: 375px;
+  border: 2px solid palevioletred;
+  border-bottom: none;
+  border-right: none;
+  border-top: none;
+  background-color: rgb(37, 37, 112);
+  border-radius: 115px 51px 51px 115px;
+  display: none;
+  
+}
+.log12{
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+
+ .para12{
+  text-align: center;
+  margin-top: 50px;
+  color: aliceblue;
+  font-size: 25px;
+
+ }
+ .para112{
+  margin-left: 10px;
+  margin-top: 8px;
+  font-size: large;
+  color: aliceblue;
+  text-align: center;
+  letter-spacing: 1px;
+
+ }
+ .lgnbtn12{
+  margin-left: 150px;
+  margin-top: 50px;
+  height: 30px;
+  width: 90px;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  background-color: black;
+ 
+}
+
+
